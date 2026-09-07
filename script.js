@@ -42,7 +42,7 @@ async function loadSongs() {
 	  index = index + 1;
 	// update the DOM  
 	showSongs();
-	  artistDisplay.textContent = songs[index].Artist;
+	  artistDisplay1.textContent = songs[index].Artist;
 	  trackNameDisplay1.textContent = songs[index]["Track Name"];
 	});
 	
@@ -51,7 +51,7 @@ async function loadSongs() {
 	  index = index - 1;
 	// update the DOM
 	showSongs() ;
-	  artistDisplay.textContent = songs[index].Artist;
+	  artistDisplay1.textContent = songs[index].Artist;
 	  trackNameDisplay1.textContent = songs[index]["Track Name"];
 	
 	});
