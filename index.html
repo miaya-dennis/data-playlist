@@ -3,14 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Playlist</title>
+    <title>Top 50 Hits</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+   
   </head>
   <body>
     <main>
-      <h1>My Playlist</h1>
-      <p>Songs from a chart, served by an API I deployed myself.</p>
-    </main>
+      <h1>Top 50 Hits</h1>
+      <p> The Hottest Viral Songs in the US</p>
+      <button id="songButton" type="button">Get a song</button>
+	  
+	</main>
+	<div class ="card">
+	  <article>
+	    <h1 id ="track-name-1"></h1>
+	    <p id="artist-1"> </p>
+		
+		<button id="nextButton" type="button">Next</button>
+		<button id="backButton" type="button">Back</button>
+	  </article>
+	</div>
     <script src="script.js"></script>
   </body>
 </html>
